@@ -18,6 +18,7 @@ export function Trial(){
 return (
     <div>
         <h4>Trial Component</h4>
+        <p>Count: {count}</p>
     </div>
 )    
 };
