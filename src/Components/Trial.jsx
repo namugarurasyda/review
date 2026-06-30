@@ -19,6 +19,7 @@ return (
     <div>
         <h4>Trial Component</h4>
         <p>Count: {count}</p>
+        <button onClick={handleClick}>Increment</button>
     </div>
 )    
 };
