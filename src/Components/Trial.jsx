@@ -11,6 +11,10 @@ export function Trial(){
         return () => clearTimeout(timer);
     }, [count]);
 
+
+    const handleClick = () => {
+        setCount(count + 1);
+    }
 return (
     <div>
         <h4>Trial Component</h4>
