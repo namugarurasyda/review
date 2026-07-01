@@ -6,6 +6,9 @@ export default function Form() {
   const [error, setError] = useState(null);
   const [status, setStatus] = useState('typing');
 
+const isSending = status === 'sending';
+const isSent = status === 'sent';
+
   if (status === 'success') {
     return <h1>That's right!</h1>
   
