@@ -23,4 +23,6 @@ export default function Form() {
     }
   }
 
-  
+    function handleTextareaChange(e) {
+    setAnswer(e.target.value);
+  }
