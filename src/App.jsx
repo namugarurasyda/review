@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import { Trial } from './Components/Trial'
+import Form from './Components/Form'
 
 function App() {
   const [count, setCount] = useState(0)
