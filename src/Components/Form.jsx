@@ -9,6 +9,10 @@ export default function Form() {
 const isSending = status === 'sending';
 const isSent = status === 'sent';
 
+  if (isSent) {
+    return <h1>Thanks for feedback!</h1>
+  }
+
   if (status === 'success') {
     return <h1>That's right!</h1>
   
