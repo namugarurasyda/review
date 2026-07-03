@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 
+ const [chatInput, setChatInput] = useState('');
+
 
 
 export async function startAIStream( chatInput ) {
   const outputDiv = document.getElementById('chat-output');
   outputDiv.innerText = ""; 
+
   
   // Setup AbortController to allow canceling the stream
   const controller = new AbortController();
