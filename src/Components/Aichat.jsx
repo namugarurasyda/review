@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 
-export async function startAIStream() {
+export async function startAIStream( chatInput ) {
   const outputDiv = document.getElementById('chat-output');
   outputDiv.innerText = ""; 
   
