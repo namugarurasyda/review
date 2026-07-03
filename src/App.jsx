@@ -13,6 +13,7 @@ function App() {
     <>
       <Trial /> 
       <Form />
+      <startAIStream chatInput="Hello, AI!" />
       
     </>
   )
