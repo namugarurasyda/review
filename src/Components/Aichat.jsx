@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useReducer, useState } from 'react';
+
 
  const [chatInput, setChatInput] = useState('');
 
@@ -8,6 +9,7 @@ import React, { useState } from 'react';
   }, [chatInput]);
 
 
+  useReducer
 
 export async function startAIStream( chatInput ) {
   const outputDiv = document.getElementById('chat-output');
