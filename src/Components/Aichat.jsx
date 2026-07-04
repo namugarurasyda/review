@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 
  const [chatInput, setChatInput] = useState('');
 
- use
+ useEffect(() => {
+    const outputDiv = document.getElementById('chat-output');
+    outputDiv.innerText = ""; // Clear previous output
+  }, [chatInput]);
 
 
 
