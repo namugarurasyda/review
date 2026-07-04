@@ -9,7 +9,10 @@ import React, { useReducer, useState } from 'react';
   }, [chatInput]);
 
 
-  useReducer
+  const [chatOutput, setChatOutput] = useReducer(
+    (state, newOutput) => [...state, newOutput],
+    []
+  );
 
 export async function startAIStream( chatInput ) {
   const outputDiv = document.getElementById('chat-output');
