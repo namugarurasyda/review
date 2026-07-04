@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
  const [chatInput, setChatInput] = useState('');
 
+ use
+
 
 
 export async function startAIStream( chatInput ) {
