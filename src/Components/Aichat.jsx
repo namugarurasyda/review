@@ -11,7 +11,9 @@ import { Outlet, Link } from 'react-router-dom';
     outputDiv.innerText = ""; // Clear previous output
   }, [chatInput]);
 
-  use
+  useEffect(() => { 
+    
+  })
 
 
   const [chatOutput, setChatOutput] = useReducer(
