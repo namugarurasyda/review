@@ -2,12 +2,16 @@ import React, { useReducer, useState } from 'react';
 
 import { Outlet, Link } from 'react-router-dom';
 
+
+
  const [chatInput, setChatInput] = useState('');
 
  useEffect(() => {
     const outputDiv = document.getElementById('chat-output');
     outputDiv.innerText = ""; // Clear previous output
   }, [chatInput]);
+
+  use
 
 
   const [chatOutput, setChatOutput] = useReducer(
