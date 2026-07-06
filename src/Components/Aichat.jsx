@@ -13,6 +13,7 @@ import { Outlet, Link } from 'react-router-dom';
 
   useEffect(() => { 
      const outputDiv = document.getElementById('chat-output');
+    outputDiv.innerText = ""; // Clear previous output
   })
 
 
