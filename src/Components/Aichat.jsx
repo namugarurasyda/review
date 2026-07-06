@@ -12,7 +12,7 @@ import { Outlet, Link } from 'react-router-dom';
   }, [chatInput]);
 
   useEffect(() => { 
-    
+     const outputDiv = document.getElementById('chat-output');
   })
 
 
