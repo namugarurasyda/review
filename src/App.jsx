@@ -6,6 +6,7 @@ import './App.css'
 import { Trial } from './Components/Trial'
 import Form from './Components/Form'
 import { startAIStream } from './Components/Aichat'
+import Try from './Components/Try'
 function App() {
   const [count, setCount] = useState(0)
 
