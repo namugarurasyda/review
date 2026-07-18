@@ -8,7 +8,10 @@ import Form from './Components/Form'
 import { startAIStream } from './Components/Aichat'
 import Try from './Components/Try'
 import Nav from './Components/Nav'
-import Section from './Components/Section'
+import Section from './Components/Sectio'
+import Heading from './Components/Heading'
+
+
 function App() {
   const [count, setCount] = useState(0)
 
