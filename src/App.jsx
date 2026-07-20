@@ -28,6 +28,13 @@ export default function TaskApp() {
     });
   }
 
+    function handleDeleteTask(taskId) {
+    dispatch({
+      type: 'deleted',
+      id: taskId
+    });
+  }
+
 
 function App() {
   const [count, setCount] = useState(0)
