@@ -101,4 +101,4 @@ const initialTasks = [
 
 }
 
-export default App
+export default App;
