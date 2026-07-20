@@ -83,6 +83,10 @@ function App() {
       });
     }
     
+     case 'deleted': {
+      return tasks.filter(t => t.id !== action.id);
+    }
+    
   }
 }
 
