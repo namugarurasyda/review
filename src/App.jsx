@@ -13,6 +13,13 @@ import Heading from './Components/Heading'
 import AddTask from './Components/AddTask'
 import TaskList from './Components/TaskList'
 
+export default function TaskApp() {
+  const [tasks, dispatch] = useReducer(
+    tasksReducer,
+    initialTasks
+  );
+}
+
 
 function App() {
   const [count, setCount] = useState(0)
