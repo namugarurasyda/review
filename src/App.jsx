@@ -10,6 +10,7 @@ import Try from './Components/Try'
 import Nav from './Components/Nav'
 import Section from './Components/Sectio'
 import Heading from './Components/Heading'
+import AddTask from './Components/AddTask'
 
 
 function App() {
