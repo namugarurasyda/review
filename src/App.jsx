@@ -73,8 +73,16 @@ function App() {
         done: false
       }];
     }
-  
-  }
+  case 'changed': {
+      return tasks.map(t => {
+        if (t.id === action.task.id) {
+          return action.task;
+        } else {
+          return t;
+        }
+      });
+    }
+    
   }
 }
 
