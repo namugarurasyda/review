@@ -72,7 +72,9 @@ function App() {
         text: action.text,
         done: false
       }];
-    }}
+    }
+  
+  }
   }
 }
 
