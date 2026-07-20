@@ -20,6 +20,14 @@ export default function TaskApp() {
   );
 }
 
+  function handleAddTask(text) {
+    dispatch({
+      type: 'added',
+      id: nextId++,
+      text: text,
+    });
+  }
+
 
 function App() {
   const [count, setCount] = useState(0)
