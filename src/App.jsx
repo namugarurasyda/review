@@ -11,6 +11,7 @@ import Nav from './Components/Nav'
 import Section from './Components/Sectio'
 import Heading from './Components/Heading'
 import AddTask from './Components/AddTask'
+import TaskList from './Components/TaskList'
 
 
 function App() {
