@@ -28,6 +28,13 @@ export default function TaskApp() {
     });
   }
 
+  function handleChangeTask(task) {
+    dispatch({
+      type: 'changed',
+      task: task
+    });
+  }
+
     function handleDeleteTask(taskId) {
     dispatch({
       type: 'deleted',
