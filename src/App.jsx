@@ -53,7 +53,14 @@ function App() {
       <startAIStream chatInput="Hello, AI!" />
       <Try />
       <Sectio />
-      
+       <AddTask
+        onAddTask={handleAddTask}
+      />
+      <TaskList
+        tasks={tasks}
+        onChangeTask={handleChangeTask}
+        onDeleteTask={handleDeleteTask}
+      />
     </>
   )
 }
