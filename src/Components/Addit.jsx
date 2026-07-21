@@ -9,3 +9,12 @@ export default function MyApp() {
     </ThemeContext>
   )
 }
+
+function Form() {
+  return (
+    <Panel title="Welcome">
+      <Button>Sign up</Button>
+      <Button>Log in</Button>
+    </Panel>
+  );
+}
