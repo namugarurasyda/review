@@ -27,5 +27,7 @@ function Panel({ title, children }) {
       <h1>{title}</h1>
       {children}
     </section>
-  )
+ 
+)
 }
+
