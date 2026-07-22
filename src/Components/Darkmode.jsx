@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 
-const ThemeContext = createContext(null);
+const ThemeContext = createContext('light');
 
 export default function MyApp() {
   const [theme, setTheme] = useState('light');
@@ -50,3 +50,4 @@ function Button({ children }) {
     </button>
   );
 }
+
