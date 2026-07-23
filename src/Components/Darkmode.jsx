@@ -36,6 +36,7 @@ function Panel({ title, children }) {
   return (
     <section className={className}>
       <h1>{title}</h1>
+      <Button>Sign up</Button>
       {children}
     </section>
   )
