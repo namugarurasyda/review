@@ -51,3 +51,19 @@ function Button({ children }) {
   );
 }
 
+export default function MyApp1() {
+  const [theme, setTheme] = useState('light');
+  return (
+    <>
+      <ThemeContext value={theme}>
+        <Form />
+      </ThemeContext>
+      <Button onClick={() => {
+        setTheme(theme === 'dark' ? 'light' : 'dark');
+      }}>
+        Toggle theme
+      </Button>
+    </>
+  )
+}
+
