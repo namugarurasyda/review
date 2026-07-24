@@ -62,6 +62,7 @@ function App() {
         onChangeTask={handleChangeTask}
         onDeleteTask={handleDeleteTask}
       />
+      <Timer />
     </>
   )
 
