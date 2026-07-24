@@ -17,6 +17,10 @@ export default function Timer() {
     };
   }, [ onTick]);
 
+  useEffect(() => {
+  onSomething();
+}, []);
+
   return (
     <>
       <h1>
