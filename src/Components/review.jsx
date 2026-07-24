@@ -11,7 +11,7 @@ export default function Timer() {
   useEffect(() => {
     const id = setInterval(() => {
       onTick();
-    }, 1000);
+    }, 10000);
     return () => {
       clearInterval(id);
     };
