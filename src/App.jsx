@@ -12,6 +12,7 @@ import Section from './Components/Sectio'
 import Heading from './Components/Heading'
 import AddTask from './Components/AddTask'
 import TaskList from './Components/TaskList'
+import Timer from './Components/review'
 
 export default function TaskApp() {
   const [tasks, dispatch] = useReducer(
